@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuidados | Repita Comigo</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="index.html">Repita Comigo</a>
+    <nav>
+      <ul>
+        <li><a href="o-que-e.html">O que é</a></li>
+        <li><a href="importancia.html">Importância</a></li>
+        <li><a href="por-que-agora.html">Por que agora</a></li>
+        <li><a href="cuidados.html">Cuidados</a></li>
+        <li><a href="sinais.html">Sinais de alerta</a></li>
+        <li><a href="duvidas.html" class="atual">Dúvidas</a></li>
+      </ul>
+    </nav>
+    <button id="botao-tema" onclick="trocarTema()">Modo escuro</button>
+  </header>
+
+  <main>
+    <section>
+      <div class="conteudo">
+        <h2>Perguntas frequentes</h2>
+
+        <button class="pergunta" onclick="mostrarResposta('r1')">Fonoaudiologia é só para crianças?</button>
+        <div class="resposta" id="r1"><p>Não. Ela atende pessoas de todas as idades, de bebês a idosos.</p></div>
+
+        <button class="pergunta" onclick="mostrarResposta('r2')">Preciso de encaminhamento para procurar um fonoaudiólogo?</button>
+        <div class="resposta" id="r2"><p>[PREENCHER com fonte oficial.]</p></div>
+
+        <button class="pergunta" onclick="mostrarResposta('r3')">Onde encontrar atendimento gratuito?</button>
+        <div class="resposta" id="r3"><p>[PREENCHER: por exemplo, serviços do SUS e clínicas-escola de universidades. Confirmem os dados da sua região.]</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Repita Comigo</strong> - Projeto final de Daniel Fernandes Canuto e Francisco José Alvarenga Santos.</p>
+    <p>Fontes: [PREENCHER com links e datas de acesso].</p>
+    <p>© <span id="ano"></span></p>
+  </footer>
+
+  <script src="../JS/script.js"></script>
+</body>
+</html>
