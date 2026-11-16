@@ -1,0 +1,242 @@
+/* ===== Estilo geral ===== */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0;
+    color: #12262d;
+    background-color: #fbfdfd;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* centraliza o conteúdo no meio da tela */
+.conteudo {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* ===== Cabeçalho e menu ===== */
+header {
+    background-color: #0b3340;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a:hover,
+nav a.atual {
+    border-bottom: 2px solid #f5b93a;
+}
+
+#botao-tema {
+    background-color: #f5b93a;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* ===== Topo da página inicial ===== */
+.topo-pagina {
+    background-color: #0b3340;
+    color: white;
+}
+
+.topo-pagina p {
+    font-size: 19px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #f5b93a;
+    color: #12262d;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+}
+
+/* ===== Espaços para imagem ===== */
+/* Para usar: apague o <span> e coloque <img src="img/arquivo.jpg" alt="descrição"> dentro do .slot */
+.slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    border: 2px dashed #0f5c6e;
+    border-radius: 15px;
+    background-color: #e4f1f4;
+    color: #0f5c6e;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slot span {
+    padding: 10px;
+}
+
+.slot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topo-pagina .slot {
+    background-color: #124b5b;
+    border-color: #f5b93a;
+    color: #d5e8ec;
+}
+
+/* ===== Seções ===== */
+.faixa {
+    background-color: #e4f1f4;
+}
+
+.alerta {
+    background-color:  white;
+    color: #12262d;
+;
+}
+
+.destaque {
+    border-left: 6px solid #f5b93a;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.aviso {
+    border: 2px solid #f5b93a;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.areas {
+    list-style: none;
+    padding: 0;
+}
+
+.areas li {
+    display: inline-block;
+    background-color: #e4f1f4;
+    border: 1px solid #c9dde2;
+    border-radius: 20px;
+    padding: 5px 14px;
+    margin: 0 8px 8px 0;
+}
+
+/* ===== Cartões ===== */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartao {
+    background-color: white;
+    border: 1px solid #c9dde2;
+    border-radius: 10px;
+    padding: 15px;
+    width: 210px;
+}
+
+.cartao .slot {
+    height: 130px;
+    margin-top: 0;
+}
+
+/* ===== Perguntas frequentes ===== */
+.pergunta {
+    width: 100%;
+    text-align: left;
+    background: none;
+    color: inherit;
+    border: none;
+    border-bottom: 1px solid #c9dde2;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+/* a resposta começa escondida e o JavaScript mostra */
+.resposta {
+    display: none;
+    padding: 10px 0;
+}
+
+/* ===== Rodapé ===== */
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #0b3340;
+    color: #d5e8ec;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ===== Modo escuro (a classe "escuro" é colocada no body pelo JavaScript) ===== */
+body.escuro {
+    background-color: #12262d;
+    color: white;
+}
+
+body.escuro .faixa {
+    background-color: #0f3d4c;
+}
+
+body.escuro .cartao {
+    background-color: #16404d;
+    border-color: #0f5c6e;
+}
+
+body.escuro .slot {
+    background-color: #16404d;
+    color: white;
+}
+
+body.escuro .areas li {
+    background-color: #16404d;
+    border-color: #0f5c6e;
+}
