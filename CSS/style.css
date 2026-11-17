@@ -104,7 +104,7 @@ nav a.atual {
     justify-content: center;
     text-align: center;
     height: 250px;
-    border: 2px dashed #718c83;
+    border: 2px solid #718c83;
     border-radius: 15px;
     background-color: #e8dcd3;
     color: #718c83;
