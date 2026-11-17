@@ -1,81 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dúvidas| Repita Comigo</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dúvidas| Repita Comigo</title>
-  <link rel="stylesheet" href="../CSS/style.css">
-</head>
+  <body>
+    <header>
+      <a class="logo" href="menu.html">Repita Comigo</a>
+      <nav>
+        <ul>
+          <li><a href="o-que-e.html">O que é</a></li>
+          <li><a href="importancia.html">Importância</a></li>
+          <li><a href="por-que-agora.html">Por que agora</a></li>
+          <li><a href="cuidados.html" class="atual">Cuidados</a></li>
+          <li><a href="sinais.html">Sinais de alerta</a></li>
+          <li><a href="duvidas.html">Dúvidas</a></li>
+        </ul>
+      </nav>
+      <button id="botao-tema" onclick="trocarTema()">Modo escuro</button>
+    </header>
 
-<body>
+    <main>
+      <section>
+        <div class="conteudo">
+          <h2>Perguntas frequentes</h2>
 
-  <header>
-    <a class="logo" href="menu.html">Repita Comigo</a>
-    <nav>
-      <ul>
-        <li><a href="o-que-e.html">O que é</a></li>
-        <li><a href="importancia.html">Importância</a></li>
-        <li><a href="por-que-agora.html">Por que agora</a></li>
-        <li><a href="cuidados.html" class="atual">Cuidados</a></li>
-        <li><a href="sinais.html">Sinais de alerta</a></li>
-        <li><a href="duvidas.html">Dúvidas</a></li>
-      </ul>
-    </nav>
-    <button id="botao-tema" onclick="trocarTema()">Modo escuro</button>
-  </header>
+          <details class="pergunta">
+            <summary>Fonoaudiologia é só para crianças?</summary>
+            <p class="resposta">
+              Não. A fonoaudiologia é uma ciência ampla que atende pessoas em
+              todas as fases do ciclo de vida humano: desde recém-nascidos (com
+              testes de orelhinha, linguinha e suporte ao aleitamento materno),
+              passando por crianças e adolescentes em fase de alfabetização e
+              desenvolvimento da linguagem, adultos que buscam aperfeiçoamento
+              de voz, oratória ou reabilitação profissional, até idosos que
+              enfrentam perdas auditivas, dificuldades de mastigação, deglutição
+              (disfagia) ou reabilitação após AVC (derrame cerebral).
+            </p>
+          </details>
 
-  <main>
-    <section>
-      <div class="conteudo">
-        <h2>Perguntas frequentes</h2>
+          <details class="pergunta">
+            <summary>
+              Preciso de encaminhamento médico para procurar um fonoaudiólogo?
+            </summary>
+            <p class="resposta">
+              De acordo com o Conselho Federal de Fonoaudiologia (CFFa), o
+              fonoaudiólogo é um profissional de saúde de primeiro contato, o
+              que significa que <strong>não é obrigatório</strong> ter um
+              encaminhamento médico para iniciar uma consulta ou avaliação
+              fonoaudiológica particular ou em clínicas especializadas. No
+              entanto, em redes públicas de saúde, planos de saúde ou convênios
+              médicos específicos, pode ser exigido um encaminhamento clínico
+              para fins de liberação burocrática de guias de atendimento ou para
+              procedimentos multidisciplinares integrados.
+            </p>
+          </details>
 
-        <details class="pergunta">
-          <summary>Fonoaudiologia é só para crianças?</summary>
-          <p class="resposta">Não. A fonoaudiologia é uma ciência ampla que atende pessoas em todas as fases do ciclo de
-            vida humano:
-            desde recém-nascidos (com testes de orelhinha, linguinha e suporte ao aleitamento materno), passando por
-            crianças e adolescentes em fase de alfabetização e desenvolvimento da linguagem, adultos que buscam
-            aperfeiçoamento de voz, oratória ou reabilitação profissional, até idosos que enfrentam perdas auditivas,
-            dificuldades de mastigação, deglutição (disfagia) ou reabilitação após AVC (derrame cerebral).</p>
-        </details>
+          <details class="pergunta">
+            <summary>Onde encontrar atendimento gratuito?</summary>
+            <p class="resposta">
+              O atendimento público e gratuito em fonoaudiologia pode ser
+              encontrado principalmente através do Sistema Único de Saúde (SUS),
+              iniciando pelas Unidades Básicas de Saúde (UBS) ou postos de saúde
+              do seu município, que realizam a triagem e os encaminhamentos
+              necessários para os Centros de Especialidades Reabilitadoras (CER)
+              e hospitais de referência. Outra excelente alternativa gratuita ou
+              de baixo custo são as clínicas-escola de fonoaudiologia vinculadas
+              a universidades públicas e privadas da sua região, onde estudantes
+              supervisionados por professores especialistas prestam serviços de
+              excelência à comunidade.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
 
-        <details class="pergunta">
-          <summary>Preciso de encaminhamento médico para procurar um fonoaudiólogo?</summary>
-          <p class="resposta">De acordo com o Conselho Federal de Fonoaudiologia (CFFa), o fonoaudiólogo é um
-            profissional de saúde de
-            primeiro contato, o que significa que <strong>não é obrigatório</strong> ter um encaminhamento médico para
-            iniciar uma
-            consulta ou avaliação fonoaudiológica particular ou em clínicas especializadas. No entanto, em redes
-            públicas de saúde, planos de saúde ou convênios médicos específicos, pode ser exigido um encaminhamento
-            clínico para fins de liberação burocrática de guias de atendimento ou para procedimentos multidisciplinares
-            integrados.</p>
-        </details>
+    <footer>
+      <p>
+        <strong>Repita Comigo</strong> Projeto final de Daniel Fernandes Canuto
+        e Francisco José Alvarenga Santos. Trabalho dedicado à elucidação de
+        dúvidas comuns e à democratização do acesso à informação sobre a
+        fonoaudiologia brasileira.
+      </p>
+      <p>
+        Fontes: Conselho Federal de Fonoaudiologia (CFFa), Ministério da Saúde e
+        diretrizes de atendimento do SUS - Acesso em 2026.
+      </p>
+      <p>© <span id="ano"></span></p>
+    </footer>
 
-        <details class="pergunta">
-          <summary>Onde encontrar atendimento gratuito?</summary>
-          <p class="resposta">O atendimento público e gratuito em fonoaudiologia pode ser encontrado principalmente
-            através do Sistema
-            Único de Saúde (SUS), iniciando pelas Unidades Básicas de Saúde (UBS) ou postos de saúde do seu município,
-            que realizam a triagem e os encaminhamentos necessários para os Centros de Especialidades Reabilitadoras
-            (CER) e hospitais de referência. Outra excelente alternativa gratuita ou de baixo custo são as
-            clínicas-escola de fonoaudiologia vinculadas a universidades públicas e privadas da sua região, onde
-            estudantes supervisionados por professores especialistas prestam serviços de excelência à comunidade.</p>
-        </details>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p><strong>Repita Comigo</strong> Projeto final de Daniel Fernandes Canuto e Francisco José Alvarenga Santos.
-      Trabalho dedicado à elucidação de dúvidas comuns e à democratização do acesso à informação sobre a fonoaudiologia
-      brasileira.</p>
-    <p>Fontes: Conselho Federal de Fonoaudiologia (CFFa), Ministério da Saúde e diretrizes de atendimento do SUS -
-      Acesso em 2026.</p>
-    <p>© <span id="ano"></span></p>
-  </footer>
-
-  <script src="../JS/script.js"></script>
-</body>
-
+    <script src="../JS/script.js"></script>
+  </body>
 </html>

@@ -1,80 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cuidados | Repita Comigo</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cuidados | Repita Comigo</title>
-  <link rel="stylesheet" href="../CSS/style.css">
-</head>
+  <body>
+    <header>
+      <a class="logo" href="menu.html">Repita Comigo</a>
+      <nav>
+        <ul>
+          <li><a href="o-que-e.html">O que é</a></li>
+          <li><a href="importancia.html">Importância</a></li>
+          <li><a href="por-que-agora.html">Por que agora</a></li>
+          <li><a href="cuidados.html" class="atual">Cuidados</a></li>
+          <li><a href="sinais.html">Sinais de alerta</a></li>
+          <li><a href="duvidas.html">Dúvidas</a></li>
+        </ul>
+      </nav>
+      <button id="botao-tema" onclick="trocarTema()">Modo escuro</button>
+    </header>
 
-<body>
-
-  <header>
-    <a class="logo" href="menu.html">Repita Comigo</a>
-    <nav>
-      <ul>
-        <li><a href="o-que-e.html">O que é</a></li>
-        <li><a href="importancia.html">Importância</a></li>
-        <li><a href="por-que-agora.html">Por que agora</a></li>
-        <li><a href="cuidados.html" class="atual">Cuidados</a></li>
-        <li><a href="sinais.html">Sinais de alerta</a></li>
-        <li><a href="duvidas.html">Dúvidas</a></li>
-      </ul>
-    </nav>
-    <button id="botao-tema" onclick="trocarTema()">Modo escuro</button>
-  </header>
-
-  <main>
-    <section>
-      <div class="conteudo">
-        <h2>Cuidados no dia a dia</h2>
-        <p>Hábitos simples que ajudam a fala, a voz e a audição, prevenindo distúrbios e promovendo mais qualidade de
-          vida e expressão em todas as etapas do desenvolvimento humano.</p>
-        <div class="cards">
-          <div class="cartao">
-            <div class="slot"><img src="../IMAGENS/images_cuidados.jpg" width="250" height="150"
-                alt="Imagem ilustrativa de uma criança lendo um livro com um adulto"></div>
-            <h3>Converse e leia juntos</h3>
-            <p>Falar com a criança olhando nos olhos, ouvir com atenção, reduzir telas e ler histórias ativamente
-              estimula a linguagem e fortalece o vocabulário.</p>
-          </div>
-          <div class="cartao">
-            <div class="slot"><img src="../IMAGENS/fones_cuidados.jpg" width="250" height="150"
-                alt="Imagem pessoa com dor ao ouvir musica"></div>
-            <h3>Cuide da audição</h3>
-            <p>Evite volumes altos em fones de ouvido (limite a até 60% da capacidade) e fique atento caso haja
-              dificuldade para responder bem aos sons do ambiente.</p>
-          </div>
-          <div class="cartao">
-            <div class="slot"><img src="../IMAGENS/agua_cuidados.jpg" width="250" height="150" alt="Imagem de pessoa falando">
+    <main>
+      <section>
+        <div class="conteudo">
+          <h2>Cuidados no dia a dia</h2>
+          <p>
+            Hábitos simples que ajudam a fala, a voz e a audição, prevenindo
+            distúrbios e promovendo mais qualidade de vida e expressão em todas
+            as etapas do desenvolvimento humano.
+          </p>
+          <div class="cards">
+            <div class="cartao">
+              <div class="slot">
+                <img
+                  src="../IMAGENS/leitura_cuidados.jpg"
+                  alt="Imagem ilustrativa de uma criança lendo um livro com um adulto"
+                />
+              </div>
+              <h3>Converse e leia juntos</h3>
+              <p>
+                Falar com a criança olhando nos olhos, ouvir com atenção,
+                reduzir telas e ler histórias ativamente estimula a linguagem e
+                fortalece o vocabulário.
+              </p>
             </div>
-            <h3>Cuide da voz</h3>
-            <p>Beba água regularmente, evite gritar com frequência e descanse a voz sempre que notar cansaço, rouquidão
-              ou esforço excessivo ao falar.</p>
-          </div>
-          <div class="cartao">
-            <div class="slot"><img src="../IMAGENS/fono-cuidados.jpg" width="250" height="150"
-                alt="Imagem de avaliação fonoaudiológica"></div>
-            <h3>Busque avaliação cedo</h3>
-            <p>Diante de dúvidas ou atrasos no desenvolvimento da fala e da audição, procurar um profissional
-              precocemente garante diagnósticos rápidos e eficazes.</p>
+            <div class="cartao">
+              <div class="slot">
+                <img
+                  src="../IMAGENS/fones_cuidados.jpg"
+                  alt="Imagem pessoa com dor ao ouvir musica"
+                />
+              </div>
+              <h3>Cuide da audição</h3>
+              <p>
+                Evite volumes altos em fones de ouvido (limite a até 60% da
+                capacidade) e fique atento caso haja dificuldade para responder
+                bem aos sons do ambiente.
+              </p>
+            </div>
+            <div class="cartao">
+              <div class="slot">
+                <img
+                  src="../IMAGENS/agua_cuidados.jpg"
+                  alt="Imagem de pessoa bebendo água"
+                />
+              </div>
+              <h3>Cuide da voz</h3>
+              <p>
+                Beba água regularmente, evite gritar com frequência e descanse a
+                voz sempre que notar cansaço, rouquidão ou esforço excessivo ao
+                falar.
+              </p>
+            </div>
+            <div class="cartao">
+              <div class="slot">
+                <img
+                  src="../IMAGENS/fono_cuidados.jpg"
+                  alt="Imagem de avaliação fonoaudiológica"
+                />
+              </div>
+              <h3>Busque avaliação cedo</h3>
+              <p>
+                Diante de dúvidas ou atrasos no desenvolvimento da fala e da
+                audição, procurar um profissional precocemente garante
+                diagnósticos rápidos e eficazes.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
+    </main>
 
-      </div>
-    </section>
-  </main>
+    <footer>
+      <p>
+        <strong>Repita Comigo</strong> Projeto final de Daniel Fernandes Canuto
+        e Francisco José Alvarenga Santos. Trabalho dedicado à conscientização
+        pública sobre a fonoaudiologia.
+      </p>
+      <p>
+        Fontes: Conselho Federal de Fonoaudiologia (CFFa), Sociedade Brasileira
+        de Fonoaudiologia (SBFa) - Acesso em 2026.
+      </p>
+      <p>© <span id="ano"></span></p>
+    </footer>
 
-  <footer>
-    <p><strong>Repita Comigo</strong> Projeto final de Daniel Fernandes Canuto e Francisco José Alvarenga Santos.
-      Trabalho dedicado à conscientização pública sobre a fonoaudiologia.</p>
-    <p>Fontes: Conselho Federal de Fonoaudiologia (CFFa), Sociedade Brasileira de Fonoaudiologia (SBFa) - Acesso em
-      2026.</p>
-    <p>© <span id="ano"></span></p>
-  </footer>
-
-  <script src="../JS/script.js"></script>
-</body>
-
+    <script src="../JS/script.js"></script>
+  </body>
 </html>
