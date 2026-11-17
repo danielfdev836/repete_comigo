@@ -124,6 +124,6 @@ A proposta inicial do projeto era uma aplicação interativa de treino de dicç�
 
 ---
 
-## 📌 Status
+##  Status
 
-✅ Projeto finalizado em novembro de 2026.
+Projeto finalizado em novembro de 2026.
