@@ -2,8 +2,8 @@
 body {
     font-family: Arial, Verdana, sans-serif;
     margin: 0;
-    color: #12262d;
-    background-color: #e4f1f4;
+    color: #34433d;
+    background-color: #f8f5f0;
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
@@ -31,8 +31,8 @@ h3 {
 
 /* ===== Cabeçalho e menu ===== */
 header {
-    background-color: #0b3340;
-    color: white;
+    background-color: #718c83;
+    color: #f8f5f0;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -46,7 +46,7 @@ header {
 }
 
 header a {
-    color: white;
+    color: #f8f5f0;
     text-decoration: none;
 }
 
@@ -64,11 +64,12 @@ nav li {
 
 nav a:hover,
 nav a.atual {
-    border-bottom: 2px solid #f5b93a;
+    border-bottom: 2px solid #a9bdaf;
 }
 
 #botao-tema {
-    background-color: #f5b93a;
+    background-color: #a9bdaf;
+    color: #34433d;
     border: none;
     border-radius: 10px;
     padding: 8px 12px;
@@ -77,8 +78,8 @@ nav a.atual {
 
 /* ===== Topo da página inicial ===== */
 .topo-pagina {
-    background-color: #0b3340;
-    color: white;
+    background-color: #718c83;
+    color: #f8f5f0;
 }
 
 .topo-pagina p {
@@ -87,8 +88,8 @@ nav a.atual {
 
 .botao {
     display: inline-block;
-    background-color: #f5b93a;
-    color: #12262d;
+    background-color: #a9bdaf;
+    color: #34433d;
     font-weight: bold;
     text-decoration: none;
     padding: 12px 24px;
@@ -103,10 +104,10 @@ nav a.atual {
     justify-content: center;
     text-align: center;
     height: 250px;
-    border: 2px dashed #0f5c6e;
+    border: 2px dashed #718c83;
     border-radius: 15px;
-    background-color: #e4f1f4;
-    color: #0f5c6e;
+    background-color: #e8dcd3;
+    color: #718c83;
     overflow: hidden;
     margin: 20px 0;
 }
@@ -122,30 +123,29 @@ nav a.atual {
 }
 
 .topo-pagina .slot {
-    background-color: #124b5b;
-    border-color: #f5b93a;
-    color: #d5e8ec;
+    background-color: #718c83;
+    border-color: #a9bdaf;
+    color: #f8f5f0;
 }
 
 /* ===== Seções ===== */
 .faixa {
-    background-color: #e4f1f4;
+    background-color: #e8dcd3;
 }
 
 .alerta {
-    background-color: #e4f1f4;
-    color: #12262d;
-;
+    background-color: #718c83;
+    color: #f8f5f0;
 }
 
 .destaque {
-    border-left: 6px solid #f5b93a;
+    border-left: 6px solid #a9bdaf;
     padding-left: 15px;
     font-size: 18px;
 }
 
 .aviso {
-    border: 2px solid #f5b93a;
+    border: 2px solid #a9bdaf;
     border-radius: 10px;
     padding: 15px;
 }
@@ -157,8 +157,8 @@ nav a.atual {
 
 .areas li {
     display: inline-block;
-    background-color: #e4f1f4;
-    border: 1px solid #c9dde2;
+    background-color: #e8dcd3;
+    border: 1px solid #c8b8d9;
     border-radius: 20px;
     padding: 5px 14px;
     margin: 0 8px 8px 0;
@@ -172,8 +172,8 @@ nav a.atual {
 }
 
 .cartao {
-    background-color: white;
-    border: 1px solid #c9dde2;
+    background-color: #ffffff;
+    border: 1px solid #c8b8d9;
     border-radius: 10px;
     padding: 15px;
     width: 210px;
@@ -186,7 +186,7 @@ nav a.atual {
 
 /* ===== Perguntas frequentes ===== */
 .pergunta {
-    border-bottom: 1px solid #c9dde2;
+    border-bottom: 1px solid #c8b8d9;
 }
 
 .pergunta summary {
@@ -207,33 +207,33 @@ main {
 }
 
 footer {
-    background-color: #0b3340;
-    color: #d5e8ec;
+    background-color: #718c83;
+    color: #f8f5f0;
     padding: 20px;
     text-align: center;
 }
 
 /* ===== Modo escuro (a classe "escuro" é colocada no body pelo JavaScript) ===== */
 body.escuro {
-    background-color: #12262d;
-    color: white;
+    background-color: #202b27;
+    color: #f2f0eb;
 }
 
 body.escuro .faixa {
-    background-color: #0f3d4c;
+    background-color: #303e37;
 }
 
 body.escuro .cartao {
-    background-color: #12262d;
-    border-color: #0f5c6e;
+    background-color: #35473e;
+    border-color: #718c83;
 }
 
 body.escuro .slot {
-    background-color: #12262d;
-    color: white;
+    background-color: #35473e;
+    color: #f8f5f0;
 }
 
 body.escuro .areas li {
-    background-color: #12262d;
-    border-color: #0f5c6e;
+    background-color: #35473e;
+    border-color: #718c83;
 }
